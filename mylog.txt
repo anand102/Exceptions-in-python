@@ -1,0 +1,12 @@
+ERROR:root:invalid literal for int() with base 10: '12.1'
+Traceback (most recent call last):
+  File "logfile.py", line 7, in <module>
+    a,b=[int(i) for i in input('Enter two numbers: ').split()]
+  File "logfile.py", line 7, in <listcomp>
+    a,b=[int(i) for i in input('Enter two numbers: ').split()]
+ValueError: invalid literal for int() with base 10: '12.1'
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "logfile.py", line 8, in <module>
+    c=a/b
+ZeroDivisionError: division by zero
